@@ -1,0 +1,18 @@
+name: FruitDeathTags
+main: guflly.fruitdeathtags
+version: 1.0
+api-version: 1.16
+
+commands:
+  deathtags:
+    description: Opens the custom death messages GUI
+    usage: /deathtags
+  refresh:
+    description: Refreshes the plugin configuration.
+    usage: /refresh
+    permission: fruitdeathtags.refresh
+
+permissions:
+  fruitdeathtags.use:
+    description: Allows using the /deathtags command.
+    default: true
